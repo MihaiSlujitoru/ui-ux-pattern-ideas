@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter phantom', // <title>
+  siteTitle: 'UI UX Pattern Ideas', // <title>
   manifestName: 'Phantom',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -7,25 +7,20 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.svg',
-  pathPrefix: `/gatsby-starter-phantom/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  // pathPrefix: `/gatsby-starter-phantom/`, // This path is subpath of your hosting https://domain/portfolio
+  heading: 'Mihai Slujitoru',
+  subHeading: 'Full time Web Developer.',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/mihaislujitoru',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://twitter.com/mihaislujitoru',
     },
   ],
 };
