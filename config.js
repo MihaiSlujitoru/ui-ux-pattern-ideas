@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.svg',
+  manifestIcon: 'src/assets/img/ui-ux-icon.jpg',
   // pathPrefix: `/gatsby-starter-phantom/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Mihai Slujitoru',
   subHeading: 'Full time Web Developer.',

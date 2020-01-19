@@ -22,9 +22,12 @@ export default function Footer() {
           </ul>
         </section>
         <ul className="copyright">
-          <li>&copy; Phantom. All rights reserved</li>
+          <li>&copy; UI/UX. Pattern Ideas All rights reserved</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
+          </li>
+          <li>
+            Website by: <a href="https://sodawebmedia.com/">Soda Web Media</a>
           </li>
         </ul>
       </div>

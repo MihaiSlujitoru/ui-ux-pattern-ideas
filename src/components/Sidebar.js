@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import Nav from './Nav';
+// import Nav from './Nav';
 import TopNav from './TopNav';
 import { Link } from 'gatsby';
-import logo from '../assets/img/website-icon.svg';
+import logo from '../assets/img/logo_transparent-new.png';
+
 export default function SideBar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
@@ -11,16 +12,15 @@ export default function SideBar({ sections = [] }) {
         <div className="inner">
           <Link to="/" className="logo">
             <span className="symbol">
-              <img src={logo} alt="" />
+              <img src={logo} alt="UI/UX Pattern Ideas" />{' '}
             </span>
-            <span className="title">Phantom</span>
           </Link>
-          <TopNav onMenuClick={() => toggleHeader(!headerOpen)} />
+          {/* <TopNav onMenuClick={() => toggleHeader(!headerOpen)} /> */}
         </div>
       </header>
-      <div className={`${headerOpen ? 'is-menu-visible' : ' '}`}>
+      {/* <div className={`${headerOpen ? 'is-menu-visible' : ' '}`}>
         <Nav onClose={() => toggleHeader(!headerOpen)} />
-      </div>
+      </div> */}
     </>
   );
 }

@@ -84,9 +84,9 @@
 	textarea {
 		@include vendor('appearance', 'none');
 		background-color: transparent;
-		border: none;
+		// border: none;
 		border-radius: 0;
-		border-bottom: solid _size(border-width) _palette(border);
+		border: solid _size(border-width) _palette(border);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -99,7 +99,7 @@
 		}
 
 		&:focus {
-			border-bottom-color: _palette(accent1);
+			border-color: _palette(accent1);
 			box-shadow: inset 0 -1px 0 0 _palette(accent1);
 		}
 	}
